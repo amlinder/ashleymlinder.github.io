@@ -1,6 +1,6 @@
 let xPos=0;
 let birds=0;
-function setup() {
+function setup() 
   createCanvas(600, 500);
 
   // set background color in grayscale
