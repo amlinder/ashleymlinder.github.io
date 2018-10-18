@@ -8,6 +8,8 @@ body {
   padding: 30px 20px;
   text-align: center;
   align-content: center;
+  text-color: #EDFFFB;
+  background-color: #262928;
 }
 
 h1 {
@@ -15,7 +17,7 @@ h1 {
 }
 
 a {
-  color: #007220;
+  color: #EDFFFB;
   text-decoration: none;
 }
 
@@ -31,5 +33,5 @@ portfolio entries */
 .portfolio-item {
   margin-top: 60px;
   padding: 40px;
-  background-color: #f7f7f7;
+  background-color: #454A49;
 }
