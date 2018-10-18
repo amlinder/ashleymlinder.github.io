@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 body {
   margin: 30px auto;
   max-width: 1000px;
@@ -14,23 +15,21 @@ h1 {
 }
 
 a {
-  color #007A20;
+  font-color: #007220;
   text-decoration: none;
 }
 
 /* Centers images */
-
 img {
-display: block;
-margin: 0px auto;
+  display: block;
+  margin: 0px auto;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are
 creating a new class. We can apply this to div elements to create different
 portfolio entries */
-
 .portfolio-item {
-margin-top: 60px;
-padding: 40px;
-background-color: #f7f7f7;
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #f7f7f7;
 }
