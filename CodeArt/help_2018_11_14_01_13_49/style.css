@@ -3,5 +3,6 @@ html, body {
   margin: auto;
 }
 canvas {
+  createCanvas(1200,700);
   display: block;
 }
