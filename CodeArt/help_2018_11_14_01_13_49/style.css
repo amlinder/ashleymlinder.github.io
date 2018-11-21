@@ -1,8 +1,0 @@
-html, body {
-  max-width: 1200px;
-  margin: auto;
-}
-canvas {
-  createCanvas(1200,700);
-  display: block;
-}
