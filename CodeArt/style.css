@@ -3,11 +3,9 @@ html, body {
   max-width: 1200px;
   max-height: 700px;
   margin: auto;
+  color: #222224; 
 
 }
 canvas {
   display: block;
-}
-background{
-  color: #222224; 
 }
