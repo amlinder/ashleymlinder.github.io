@@ -7,13 +7,17 @@ body {
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
-  align-content: center;
   color: #EDFFFB;
   background-color: #262928;
 }
 
 h1 {
   padding: 20px 0px 10px 0px;
+  text-align: left;
+}
+
+h2{
+  text-align: center;
 }
 
 a {
@@ -34,6 +38,36 @@ portfolio entries */
   margin-top: 60px;
   padding: 40px;
   background-color: #454A49;
-  text-decoration:#EDFFFB;
+  text-decoration:white;
 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: White;
 }
