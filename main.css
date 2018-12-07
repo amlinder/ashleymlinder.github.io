@@ -7,21 +7,19 @@ body {
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
-  color: #EDFFFB;
-  background-color: #262928;
+  color: black;
+  background-color:#32707D;
 }
 
 h1 {
   padding: 20px 0px 10px 0px;
-  text-align: left;
-}
-
-h2{
   text-align: center;
+  color: white;
+
 }
 
 a {
-  color: #EDFFFB;
+  color:white;
   text-decoration: none;
 }
 
@@ -37,37 +35,32 @@ portfolio entries */
 .portfolio-item {
   margin-top: 60px;
   padding: 40px;
-  background-color: #454A49;
-  text-decoration:white;
+  background-color:#E0E0E0;
+  text-decoration:black;
+  font-family: 'Ubuntu', sans-serif;
 
 }
-
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: left;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#E0E0E0 ;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color:#32707D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
-}
-
-.active {
-    background-color: White;
+  background-color: #111;
 }
