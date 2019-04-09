@@ -64,15 +64,11 @@ li a {
 li a:hover {
   background-color: #111;
 }
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.row {
+  display: flex;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
