@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+model-viewer {
+  margin: auto;
+  width: 75%;
+  height:700px;
+  background: #DBDBDC;
+}
 body {
   margin: 30px auto;
   max-width: 1000px;
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   padding: 30px 20px;
-  text-align: center;
+  text-align: left;
   color: black;
   background-color:#32707D;
 }
 
 h1 {
-  padding: 20px 0px 10px 0px;
   text-align: center;
+  font-size: 32pt;
   color: white;
 
 }
-
+h2{
+    text-align: left;
+    font-family: 'Caveat', cursive;
+}
 a {
   color:white;
   text-decoration: none;
